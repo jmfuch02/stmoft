@@ -28,7 +28,7 @@ html,
 body {
   height: 100%;
   background-color: #333;
-  background-image: url("/images/altar_window_bw_large.jpg");
+  background-image: url("../images/altar_window_bw_large.jpg");
   --background-image: url("/images/altar_large.jpg");
   background-repeat: no-repeat;
   background-position: center;
