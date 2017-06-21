@@ -5,6 +5,14 @@ body, html {
     line-height: 1.8;
 }
 
+#main-nav {
+  margin-bottom: 0px;
+}
+
+#home {
+  opacity: 0.75;
+}
+
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     background-attachment: fixed;

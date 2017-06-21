@@ -3,32 +3,39 @@
 <title>St. Martin of Tours Church</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/css/main.css">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/main.css">
 
 <body>
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a href="#home" class="w3-bar-item w3-button"> ST. MARTIN OF TOURS CHURCH </a>
-    <a href="#welcome" class="w3-bar-item w3-button w3-hide-small"> WELCOME </a>
-    <a href="#staff" class="w3-bar-item w3-button w3-hide-small"> OUR STAFF </a>
-    <a href="#schedule" class="w3-bar-item w3-button w3-hide-small"> MASS & CONFESSION </a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"> CONTACT </a>
-  </div>
+<nav class="navbar navbar-default" id="main-nav">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">ST. MARTIN OF TOURS CHURCH</a>
+    </div>
 
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#welcome" class="w3-bar-item w3-button" onclick="toggleFunction()">WELCOME</a>
-    <a href="#staff" class="w3-bar-item w3-button" onclick="toggleFunction()">OUR STAFF</a>
-    <a href="#schedule" class="w3-bar-item w3-button" onclick="toggleFunction()">MASS & CONFESSION</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#welcome" class=""> WELCOME </a></li>
+        <li><a href="#staff" class=""> OUR STAFF </a></li>
+        <li><a href="#schedule" class=""> SCHEDULE </a></li>
+        <li><a href="#contact" class=""> CONTACT </a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
   </div>
 </div>
 
@@ -72,7 +79,7 @@
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">OUR LEADERS</span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">OUR STAFF</span>
   </div>
 </div>
 
@@ -81,32 +88,31 @@
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
-    <div class="w3-col m2">
-      <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Rev. R. Paul Beach, JCL">
+    <div class="col-md-2">
+      <img style="" onclick="onClick(this)" class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="Rev. R. Paul Beach, JCL">
+      <h5> Rev. R. Paul Beach, JCL </h5>
     </div>
 
-    <div class="w3-col m2">
-      <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Rev. David Carr">
+    <div class="col-md-2">
+      <img style="" onclick="onClick(this)" class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="Rev. David Carr">
     </div>
 
-    <div class="w3-col m2">
-      <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Deacon Richard Zoldak">
+    <div class="col-md-2">
+      <img style="" onclick="onClick(this)" class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="Deacon Richard Zoldak">
     </div>
 
-    <div class="w3-col m2">
-      <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Deacon Robert Bryant">
+    <div class="col-md-2">
+      <img style="" onclick="onClick(this)" class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="Deacon Robert Bryant">
     </div>
 
-    <div class="w3-col m2">
-      <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Deacon Jonathan Erdman">
+    <div class="col-md-2">
+      <img style="" onclick="onClick(this)" class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="Someone else">
     </div>
 
-    <div class="w3-col m2">
-      <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Somebody else">
+    <div class="col-md-2">
+      <img style="" onclick="onClick(this)" class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="Someone else">
     </div>
-
   </div>
-
 </div>
 
 <!-- Modal for full size images on click-->
@@ -251,10 +257,11 @@ function toggleFunction() {
 }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDT-QGEiXtZpYpjUjQAJg5u3tKlszVE9Lw&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
