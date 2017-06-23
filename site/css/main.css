@@ -8,6 +8,10 @@ body, html {
     line-height: 1.8;
 }
 
+h1 {
+  color: white;
+}
+
 #main-nav {
   margin-bottom: 0px;
 }
@@ -69,8 +73,26 @@ body, html {
     min-height: 400px;
 }
 
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
+.main-center-text {
+  position: relative;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  top: 300px;
+}
+
+.bgimg-text {
+  background-color: gray;
+  font-size: 48px;
+  color: white;
+  letter-spacing: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.top-buffer { margin-top:20px; }
+
+.hover-opacity { cursor: pointer; }
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {

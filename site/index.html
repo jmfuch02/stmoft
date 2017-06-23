@@ -13,7 +13,7 @@
 <body>
 
 <!-- Navbar (sit on top) -->
-<nav class="navbar navbar-default" id="main-nav">
+<nav class="navbar navbar-default navbar-fixed-top" id="main-nav">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -50,51 +50,66 @@
 </div>
 
 <!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Our doors never close.</span>
+<div class="bgimg-1" id="home">
+  <div class="main-center-text">
+    <span class="bgimg-text">Our doors never close.</span>
   </div>
 </div>
 
-<!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="welcome">
+<!-- Container (Welcome Section) -->
+<div class="" id="welcome">
   <h3 class="w3-center">WELCOME</h3>
   <p class="w3-center"><em> Here's what we're about </em></p>
 
     <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-    <div class="w3-row-padding w3-center">
-      <div class="w3-col m3">
-        <img src="images/organ_color_large.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Perpetual Eucharistic Adoration">
-      </div>
+    <div class="container-fluid">
+      <div class="row top-buffer">
+        <div class="col-sm-6 col-md-3">
+          <img src="images/organ_color_large.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Perpetual Eucharistic Adoration">
+        </div>
 
-      <div class="w3-col m3">
-        <img src="images/organ_color_large.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
-      </div>
+        <div class="col-sm-6 col-md-3">
+          <img src="images/organ_color_large.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+        </div>
 
-      <div class="w3-col m3">
-        <img src="images/organ_color_large.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
-      </div>
+        <div class="col-sm-6 col-md-3">
+          <img src="images/organ_color_large.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+        </div>
 
-      <div class="w3-col m3">
-        <img src="images/organ_color_large.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
-      </div>
-    </div>
+        <div class="col-sm-6 col-md-3">
+          <img src="images/organ_color_large.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+        </div>
+      </div> <!-- end of row div -->
+
+      <div class="row top-buffer">
+        <div class="col-sm-6 col-md-3">
+          <img src="images/organ_color_large.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Perpetual Eucharistic Adoration">
+        </div>
+
+        <div class="col-sm-6 col-md-3">
+          <img src="images/organ_color_large.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+        </div>
+
+        <div class="col-sm-6 col-md-3">
+          <img src="images/organ_color_large.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+        </div>
+
+        <div class="col-sm-6 col-md-3">
+          <img src="images/organ_color_large.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+        </div>
+      </div> <!-- end of row div -->
+    </div> <!-- end of container-fluid -->
 </div> <!-- end of welcome div -->
 
-<!--
-<div class="w3-row w3-center w3-dark-grey w3-padding-16">
-</div>
--->
-
 <!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">OUR STAFF</span>
+<div class="bgimg-2" id="staff">
+  <div class="main-center-text">
+    <span class="bgimg-text">OUR STAFF</span>
   </div>
 </div>
 
 <!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="staff">
+<div class="w3-content w3-container w3-padding-64">
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
