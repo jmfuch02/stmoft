@@ -51,15 +51,15 @@
 
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1" id="home">
-  <div class="main-center-text">
+  <div class="main-image-text">
     <span class="bgimg-text">Our doors never close.</span>
   </div>
 </div>
 
 <!-- Container (Welcome Section) -->
-<div class="" id="welcome">
-  <h3 class="w3-center">WELCOME</h3>
-  <p class="w3-center"><em> Here's what we're about </em></p>
+<div class="section-div" id="welcome">
+  <h3 class="section-title">WELCOME</h3>
+  <p class="section-text"><em> Here's what we're about </em></p>
 
     <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
     <div class="container-fluid">
@@ -101,99 +101,92 @@
     </div> <!-- end of container-fluid -->
 </div> <!-- end of welcome div -->
 
-<!-- Second Parallax Image with Portfolio Text -->
+<!-- Second Parallax Image with Staff Text -->
 <div class="bgimg-2" id="staff">
   <div class="main-center-text">
     <span class="bgimg-text">OUR STAFF</span>
   </div>
 </div>
 
-<!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64">
+<!-- Container (Staff Section) -->
+<div class="section-div">
+  <p class="section-text"><em> Say hello to the people who make things happen </em></p>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
+  <div class="container-fluid">
     <div class="col-md-2">
-      <img style="" onclick="onClick(this)" class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="Rev. R. Paul Beach, JCL">
-      <h5> Rev. R. Paul Beach, JCL </h5>
+      <img style="" onclick="onClick(this)" class="img-circle img-responsive img-center"
+        src="https://placehold.it/200x200" alt="Rev. R. Paul Beach, JCL">
+      <h3> Rev. R. Paul Beach, JCL </h3>
     </div>
 
     <div class="col-md-2">
-      <img style="" onclick="onClick(this)" class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="Rev. David Carr">
+      <img style="" onclick="onClick(this)" class="img-circle img-responsive img-center"
+        src="https://placehold.it/200x200" alt="Rev. David Carr">
+        <h3> Rev. David Carr </h3>
     </div>
 
     <div class="col-md-2">
-      <img style="" onclick="onClick(this)" class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="Deacon Richard Zoldak">
+      <img style="" onclick="onClick(this)" class="img-circle img-responsive img-center"
+        src="https://placehold.it/200x200" alt="Deacon Richard Zoldak">
+        <h3> Deacon Richard Zoldak </h3>
     </div>
 
     <div class="col-md-2">
-      <img style="" onclick="onClick(this)" class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="Deacon Robert Bryant">
+      <img style="" onclick="onClick(this)" class="img-circle img-responsive img-center"
+        src="https://placehold.it/200x200" alt="Deacon Robert Bryant">
+        <h3> Deacon Robert Bryant </h3>
     </div>
 
     <div class="col-md-2">
-      <img style="" onclick="onClick(this)" class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="Someone else">
+      <img style="" onclick="onClick(this)" class="img-circle img-responsive img-center"
+        src="https://placehold.it/200x200" alt="Someone else">
+        <h3> Someone else </h3>
     </div>
 
     <div class="col-md-2">
-      <img style="" onclick="onClick(this)" class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="Someone else">
+      <img style="" onclick="onClick(this)" class="img-circle img-responsive img-center"
+        src="https://placehold.it/200x200" alt="Someone else">
+        <h3> Someone else </h3>
     </div>
-  </div>
-</div>
-
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
   </div>
 </div>
 
 <!-- Third Parallax Image with Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-     <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">SCHEDULE</span>
+<div class="bgimg-3" id="schedule">
+  <div class="main-center-text">
+    <span class="bgimg-text">SCHEDULE</span>
   </div>
 </div>
 
 <!-- Container (Schedule Section) -->
-<div class="w3-content w3-container w3-padding-64" id="schedule">
-  <h3 class="w3-center">MASS & CONFESSION TIMES</h3>
+<div class="section-div">
+  <h3 class="section-title">MASS & CONFESSION TIMES</h3>
 
-  <div class="w3-row w3-padding-32 w3-section">
-    <div class="w3-col m6 w3-panel">
-      <div class="w3-large w3-margin-bottom">
-        Weekend Masses: <br>
-      </div>
-      <p> Saturday, 4:00 p.m.<br> Sung Vigil Mass <br><br>
-          Sunday, 7:45 a.m.<br> English Low Mass <br><br>
-          Sunday, 9:00 a.m.<br> English Sung Mass with Hymns <br><br>
-          Sunday, 10:30 a.m.<br> Choral High Mass in the Ordinary Form <br><br>
-          Sunday, 12:15 p.m.<br> Choral High Mass in the Extraordinary Form <br><br>
-          Sunday, 4:00 p.m.<br> Choral High Mass in the Ordinariate Form <br><br></p>
+  <div class="container-fluid" id="mass-times">
+    <div class="col-md-6">
+      <h2>Weekend Masses:</h2> <br>
+      <p> Saturday, 4:00 p.m. | Sung Vigil Mass <br><br>
+          Sunday, 7:45 a.m. | English Low Mass <br><br>
+          Sunday, 9:00 a.m. | English Sung Mass with Hymns <br><br>
+          Sunday, 10:30 a.m. | Choral High Mass in the Ordinary Form <br><br>
+          Sunday, 12:15 p.m. | Choral High Mass in the Extraordinary Form <br><br>
+          Sunday, 4:00 p.m. | Choral High Mass in the Ordinariate Form <br><br></p>
     </div>
 
-    <div class="w3-col m6 w3-panel">
-
-      <div class="w3-large w3-margin-bottom">
-        Weekday Masses: <br>
-      </div>
+    <div class="col-md-6">
+      <h2>Weekday Masses: </h2><br>
       <p> Monday - Friday, 12:00 Noon </p><br>
 
-      <div class="w3-large w3-margin-bottom">
-        Confession: <br>
-      </div>
+      <h2>Confession: </h2><br>
       <p> Monday and Friday, 11:30 a.m. <br>
           Saturday, 3:00 p.m.</p><br>
 
-      <div class="w3-large w3-margin-bottom">
-        Perpetual Eucharistic Adoration: <br>
-      </div>
+      <h2>Perpetual Eucharistic Adoration: </h2><br>
       <p> Open 24/7 <br>
-
     </div>
-  </div>
-</div>
+  </div><!-- End container-fluid -->
+</div><!-- End section-div -->
 
 <!-- Fourth Parallax Image with Text -->
 <div class="bgimg-4 w3-display-container w3-opacity-min">
